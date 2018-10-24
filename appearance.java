@@ -8,7 +8,7 @@ public class Appearance {
 	//instance objects
 	TextFunctions g = new TextFunctions();
 	JLabel redLabel = new JLabel("red balls");
-    JTextField redText = new JTextField(12);
+    	JTextField redText = new JTextField(12);
 	JLabel buleLabel = new JLabel("bule balls");
 	JTextField buleText = new JTextField(12);
 	JLabel redPrompt = new JLabel("choose six red ball from 1 to 33:");
@@ -53,7 +53,7 @@ public class Appearance {
 	        
 	        prizeText.setBounds(380,100,240,55);
 	        panel.add(prizeText);
-	        g.prizeShow(prizeText);
+	        //g.prizeShow(prizeText);
 	        	                	        	        
 	        //Enter the number of bule chromosphere numbers purchased
 	        beginButton.setBounds(190,210,100,25);
